@@ -9,9 +9,28 @@
 *.user
 *.userosscache
 *.sln.docstates
+*.sln
+*.csproj
+*.ide
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
+
+# Ignore designer files
+*.Designer.cs
+*.Designer.vb
+*.resx
+*.config
+*.png
+*.ico
+*.gif
+
+# Ignore build directories
+bin/
+obj/
+
+# Ignore packages
+packages/
 
 # Mono auto generated files
 mono_crash.*
